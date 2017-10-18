@@ -14,6 +14,7 @@ if os.stat("task2.txt").st_size == 0:
 	print("This file is empty. Retard!")
 	exit(1)
 
+# this it a change to test source control
 
 # MAIN ALGO.
 with open("task2.txt", "r") as text_file: #this opens the task2.txt file and the "r" reads the file. It also assigns task2.txt to text_file
